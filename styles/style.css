@@ -1,0 +1,39 @@
+.card-text {
+    padding: 10px;
+  }
+  .card {
+    margin: auto;
+    margin-top: 50px;
+    width: 40rem;
+  }
+  
+  img{
+    height: 100%;
+  }
+  button{
+    margin-top: 10px;
+  }
+  
+  .success{
+    color: green;
+  }
+  .fail{
+    color: brown;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 20rem;
+    }
+    button,
+    input {
+      width: 100%;
+    }
+    #answerBtn {
+      margin-top: 10px;
+    }
+   
+    .content{
+      height: 200px;
+    }
+  }
